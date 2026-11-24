@@ -1,0 +1,45 @@
+{
+  "training_rows": 1350,
+  "test_rows": 450,
+  "test_churn_rate": 0.39555555555555555,
+  "cv_average_precision": {
+    "logistic": 0.7008634265810068,
+    "random_forest": 0.68842715362962
+  },
+  "selected_model": "logistic",
+  "threshold": 0.5,
+  "holdout": {
+    "roc_auc": 0.7924239920687376,
+    "average_precision": 0.7004280992850982,
+    "precision": 0.6903225806451613,
+    "recall": 0.601123595505618,
+    "f1": 0.6426426426426426,
+    "confusion_matrix": [
+      [
+        224,
+        48
+      ],
+      [
+        71,
+        107
+      ]
+    ]
+  },
+  "dummy_baseline": {
+    "roc_auc": 0.5,
+    "average_precision": 0.39555555555555555,
+    "precision": 0,
+    "recall": 0,
+    "f1": 0,
+    "confusion_matrix": [
+      [
+        272,
+        0
+      ],
+      [
+        178,
+        0
+      ]
+    ]
+  }
+}
